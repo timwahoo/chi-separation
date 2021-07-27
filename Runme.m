@@ -15,40 +15,14 @@
 % The RDF N_std, wG, wG_r2p, mask_CSF can be obtained using MEDI toolbox.
 % For R2, carefully consider the data acquisition and the effects of stimulated echo
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%
-%% For test, delete this section before sharing
+%% Parameter Example
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
-txt_data = 'invivo'; % 'phantom' or 'invivo'
-
-if strcmp( txt_data, 'phantom') == 1
-    if ismac || isunix
-    load ../Do_Not_Share/Data_phantom.mat
-    elseif ispc
-    load ..\Do_Not_Share\Data_phantom.mat
-    end
-    
-    clear params
-    
-    
-elseif strcmp( txt_data, 'invivo') == 1
-    
-    if ismac || isunix
-    load ../Do_Not_Share/Data_Invivo.mat
-    elseif ispc
-    load ..\Do_Not_Share\Data_Invivo.mat
-    end
-    
-    clear params
-    
-    
-end
-
-% example
+% example for in-vivo human brain @ 3T
 % % essential parameters
 % params.voxel_size = [1 1 1]; % [mm unit]
-% params.CF = 123e6; % 3T case [Hz unist]
+% params.CF = 123e6; % ~3 Tesla [Hz unist]
 % params.b0_dir = [0 0 1]; % transverse slice
 % params.Dr_pos = 137; % invivo human brain @ 3T 
 % params.Dr_neg = params.Dr_pos;
