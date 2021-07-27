@@ -29,4 +29,4 @@ Software:
 # Contact
 Hyeong-Geol Shin, Ph.D. Candidate @ Seoul National University 
 
-email: sin4109@snu.ac.kr
+email: sin4109@gmail.com
