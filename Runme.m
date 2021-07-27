@@ -10,20 +10,22 @@
 % and "iLSQR" (Li, Neuroimage, 2015).
 
 % Regarding optimization parameters of x-separation, please refer to MEDI toolbox for x_sep_l1norm 
-% and Suite toolbox for x_sep_SA
+% and STI-Suite toolbox for x_sep_SA
 
 % The RDF N_std, wG, wG_r2p, mask_CSF can be obtained using MEDI toolbox.
-% For R2, carefully consider the data acquisition and the effects of stimulated echo
+% cf) For R2, one should carefully consider the data acquisition and the effects of stimulated echo
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %% Parameter Example
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
-% example for in-vivo human brain @ 3T
+% This is JUST AN EXAMPLE for a data acquired from in-vivo human brain @ 3T
+% please modify the parameters for your dataset
+
 % % essential parameters
 % params.voxel_size = [1 1 1]; % [mm unit]
 % params.CF = 123e6; % ~3 Tesla [Hz unist]
-% params.b0_dir = [0 0 1]; % transverse slice
+% params.b0_dir = [0 0 1]; % if slice orientation is transverse
 % params.Dr_pos = 137; % invivo human brain @ 3T 
 % params.Dr_neg = params.Dr_pos;
 % params.lambda = 1; % regularization parameters for x_sep_l1norm
@@ -46,7 +48,7 @@ r2prime(r2prime<0) = 0; % enforce physics (i.e., R2* >= R2)
 
 save result/x_l1 x_pos_l1 x_neg_l1
 
-% advanced options
+% advanced options for less artifacts or fast convergence
 % [x_pos_l1, x_neg_l1, x_tot_l1] = x_sep_l1norm(local_f, r2prime,mag, N_std, mask_qsm, params...
 %     , mask_CSF, wG, wG_r2p, x_qsm_init);
 % [x_pos_l1, x_neg_l1, x_tot_l1] = x_sep_l1norm(local_f, r2prime,mag, N_std, mask_qsm, params...
@@ -71,11 +73,10 @@ params_strongx.strong_x_thresh = 0.2; % susceptibility threshold for masking str
 save result/x_SA_s x_pos_sa_s x_neg_sa_s
 
 
-% advanced options
+% advanced options for less artifacts or fast convergence
 %[x_pos_sa, x_neg_sa, x_tot_sa] =  x_sep_SA(local_f,r2prime, mask_qsm,params, x_qsm_init);
 %[x_pos_sa, x_neg_sa, x_tot_sa] = x_sep_SA(local_f,r2prime, mask_qsm,params, x_qsm_init, mask_unrel_mag, mask_unrel_phs);
 %[x_pos_sa_s, x_neg_sa_s, x_tot_sa_s]= x_sep_SA(local_f,r2prime, mask_qsm,params_strongx, x_qsm_init, mask_unrel_mag, mask_unrel_phs);
-
 
 
 
