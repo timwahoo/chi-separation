@@ -16,6 +16,11 @@
 * MATLAB (tested in ver. R2019a-R2021a)
 * Required MATLAB toolbox: image_toolbox, signal_toolbox, and statistics_toolbox 
 
+# Toolbox
+This toolbox is developed for &chi;-separation (2023-03-07 updated). The toolbox can be downloaded via the link below.
+It will be expire after in Mar. 2025.
+https://drive.google.com/file/d/1PDRVziH_qWNztGQreW15efmWuT8vTXim/view?usp=share_link
+
 # License
 We provide software for academic research purpose only and NOT for commercial or clinical use. For commercial use of our software, contact us (snu.list.software@gmail.com) for licensing via Seoul National University.Please email to “snu.list.software@gmail.com” with the following information.
 
