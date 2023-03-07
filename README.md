@@ -17,7 +17,7 @@
 * Required MATLAB toolbox: image_toolbox, signal_toolbox, and statistics_toolbox 
 
 # Toolbox
-A toolbox is developed for &chi;-separation (2023-03-07 updated). This toolbox can be downloaded via the link below. It will be expire after in Mar. 2025.
+A toolbox and a manual for &chi;-separation (2023-03-07 updated). This toolbox can be downloaded via the link below. It will be expire after in Mar. 2025.
 **The toolbox was only designed to process axial orientation image. Otherwise, please use other tools(i.e., FSL) for preprocessing.**
 
 https://drive.google.com/file/d/1PDRVziH_qWNztGQreW15efmWuT8vTXim/view?usp=share_link
