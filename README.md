@@ -28,7 +28,7 @@
 
 
 # License
-We provide software license for academic research purpose only and NOT for commercial or clinical use. To renew the license, please contact snu.list.software@gmail.com. For commercial use of our software, contact us (snu.list.software@gmail.com) for licensing via Seoul National University.Please email to “snu.list.software@gmail.com” with the following information:
+We provide software license for academic research purpose only and NOT for commercial or clinical use. To renew the license, please contact snu.list.software@gmail.com. For commercial use of our software, contact us (snu.list.software@gmail.com) with the following information:
 
 Name:
 
