@@ -22,7 +22,7 @@
 * Common
   - MATLAB (tested in ver. R2019a-R2021a)
 
-* Additionally required
+* Additional
   - For &chi;-sepnet, Deep Learning MATLAB Toolbox Converter for ONNX Model Format (https://www.mathworks.com/matlabcentral/fileexchange/67296-deep-learning-toolbox-converter-for-onnx-model-format)
   - For DICOM read and phase processing, see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0
 
