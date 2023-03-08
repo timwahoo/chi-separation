@@ -1,6 +1,6 @@
 #  &chi;-separation 
 
-* The MATLAB toolbox includes convex optimization-based algorithms for magnetic susceptibility source separation (&chi;-separation; **Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction of &chi;-separation (&chi;-sepnet; **Kim at al., 30th Annual Meeting of ISMRM (2464), 2022**). The implementations of the &chi;-separation method is based on the conventional QSM algorithms (MEDI+0 (Liu et al., MRM, 2018) and iLSQR (Li et al., Neuroimage, 2015), sharing similar contrasts and optimization parameters with the algorithms.
+* The MATLAB toolbox includes convex optimization-based algorithms for magnetic susceptibility source separation (&chi;-separation; **Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction of &chi;-separation (&chi;-sepnet; **Kim at al., 30th Annual Meeting of ISMRM (2464), 2022**). The phase preprocessing of the &chi;-separation toolbox (e.g. phase unwrapping and background removal) is powered by MEDI toolbox and STI Suite (see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0). The convex optimization-based algorithm shares similar contrasts and optimization parameters with with MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015).
 * Last update: Mar,07,2023
 
 
