@@ -4,9 +4,9 @@
 
 * The toolbox includes
   - **&chi;-separation**: convex optimization-based magnetic susceptibility source separation algorithm sharing similar contrasts and optimization 
-  - parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015) algorithm.
-  - **&chi;-sepnet using R2'**: U-Net-based neural network to reconstruct &chi;-separation using both R2' and phase maps
-  - **&chi;-sepnet using R2***: U-Net-based neural network to reconstruct &chi;-separation using both R2* and phase maps (in absence of quantitative R2)
+  - parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015) algorithm. You can set constant T2 
+  - **&chi;-sepnet using R2'(or R2*)**: U-Net-based neural network to reconstruct &chi;-separation using phase and R2' (or R2* if R2 is not measured) 
+
 * Last update: Mar,07,2023
 
 # Download
