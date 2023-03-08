@@ -31,7 +31,7 @@ Purpose:
 
 
 # Notes
-The current &chi;-sepnet is only designed to process axial orientation image (&chi;-sepnet for arbitrary orientation will be updated before Apr, 2023).
+The current &chi;-sepnet is  designed to process axial orientation image only (&chi;-sepnet for arbitrary orientation will be updated before Mar, 14, 2023).
 
 # Contact
 * primary:   snu.list.software@gmail.com
