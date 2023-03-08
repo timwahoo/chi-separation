@@ -1,6 +1,6 @@
 #  &chi;-separation 
 
-* The MATLAB toolbox includes convex optimization-based algorithms for magnetic susceptibility source separation (&chi;-separation; **Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction of &chi;-separation (&chi;-sepnet; **Kim at al., 30th Annual Meeting of ISMRM (2464), 2022**). The phase preprocessing of the &chi;-separation toolbox (e.g. phase unwrapping and background removal) is powered by MEDI toolbox and STI Suite (see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0). The convex optimization-based algorithm shares similar contrasts and optimization parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015).
+* The MATLAB toolbox includes convex optimization-based algorithms for magnetic susceptibility source separation (&chi;-separation; **Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction of &chi;-separation (&chi;-sepnet; **Kim at al., 30th Annual Meeting of ISMRM (2464), 2022**). The phase preprocessing of the &chi;-separation toolbox (e.g. phase unwrapping and background removal) is powered by MEDI toolbox and STI Suite (see [https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0]). The convex optimization-based algorithm shares similar contrasts and optimization parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015).
 * Last update: Mar,07,2023
 
 
@@ -15,7 +15,7 @@
 
 * MATLAB (tested in ver. R2019a-R2021a)
 * Required MATLAB toolbox for &chi;-separation: image_toolbox, signal_toolbox, and statistics_toolbox 
-* Requirement for &chi;-sepnet: see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0
+* Requirement for &chi;-sepnet: see [https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0]
 
 
 # License
