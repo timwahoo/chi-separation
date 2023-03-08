@@ -14,8 +14,7 @@
 # Requirements
 
 * MATLAB (tested in ver. R2019a-R2021a)
-* Required MATLAB toolbox for &chi;-separation : image_toolbox, signal_toolbox, and statistics_toolbox 
-* Required MATLAB toolbox for &chi;-sepnet     : image_toolbox, signal_toolbox, statistics_toolbox, and Deep Learning Toolbox Converter for ONNX Model Format (https://www.mathworks.com/matlabcentral/fileexchange/67296-deep-learning-toolbox-converter-for-onnx-model-format)
+* Required MATLAB toolbox for &chi;-sepnet     : Deep Learning Toolbox Converter for ONNX Model Format (https://www.mathworks.com/matlabcentral/fileexchange/67296-deep-learning-toolbox-converter-for-onnx-model-format)
 * Requirements for DICOM read and phase processing: see [https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0]
 
 
