@@ -2,8 +2,8 @@
 
 * The MATLAB-based &chi;-separation toolbox includes algorithms for magnetic susceptibility source separation based on convex optimization (**&chi;-separation; Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction (**&chi;-sepnet; Kim at al., 30th Annual Meeting of ISMRM, 2022**). The toolbox also offers phase preprocessing (e.g. phase unwrapping and background removal) powered by MEDI and STI Suite toolboxs (see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0 for details. 
 
-* The toolbox includes
-  - **&chi;-separation using R2' (or** **R2** * **)**: convex optimization-based magnetic susceptibility source separation algorithm sharing similar contrasts and optimization parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015) algorithm. You can use pseudo R2 map option if you don't have R2 measurement (using R2' is highly reconmmanded for accurate estimation).
+* The &chi;-separation toolbox includes the following features:
+  - **&chi;-separation using R2' (or** **R2** * **)**: a magnetic susceptibility source separation algorithm based on convex optimization that shares similar contrasts and optimization parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015) algorithm. You can use pseudo R2 map option if you don't have R2 measurement (using R2' is highly reconmmanded for accurate estimation).
   - **&chi;-sepnet using R2' (or** **R2** * **)**: U-Net-based neural network to reconstruct &chi;-separation using R2' and phase. In case that R2 is not measured, another neural network is trained to estimate &chi;-separation maps from R2* and phase.
 
 * Last update: Mar,07,2023
