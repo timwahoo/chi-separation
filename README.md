@@ -1,7 +1,12 @@
-#  &chi;-separation 
+#  &chi;-separation toolbox
 
-* The MATLAB toolbox includes convex optimization-based algorithms for magnetic susceptibility source separation (&chi;-separation; **Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction of &chi;-separation (&chi;-sepnet; **Kim at al., 30th Annual Meeting of ISMRM (2464), 2022**). The phase preprocessing of the &chi;-separation toolbox (e.g. phase unwrapping and background removal) is powered by MEDI toolbox and STI Suite (see [https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0]). The convex optimization-based algorithm shares similar contrasts and optimization parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015) algorithm.
+* The MATLAB toolbox includes convex optimization-based algorithms for magnetic susceptibility source separation (&chi;-separation; **Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction of &chi;-separation (&chi;-sepnet; **Kim at al., 30th Annual Meeting of ISMRM (2464), 2022**). The phase preprocessing of the &chi;-separation toolbox (e.g. phase unwrapping and background removal) is powered by MEDI and STI Suite toolboxs (see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0). 
 * Last update: Mar,07,2023
+
+
+* **&chi;-separation**: convex optimization-based magnetic susceptibility source separation algorithm sharing similar contrasts and optimization parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015) algorithm.
+* **&chi;-sepnet using R2'**: U-Net-based neural network to reconstruct &chi;-separation using both R2' and phase maps
+* **&chi;-sepnet using R2***: U-Net-based neural network to reconstruct &chi;-separation using both R2* and phase maps (in absence of quantitative R2)
 
 # Download
 * https://www.dropbox.com/sh/8q7y005opitpxlz/AABtsSJDbEjJpvQmfQRwtjdpa?dl=0
@@ -16,7 +21,7 @@
 
 * MATLAB (tested in ver. R2019a-R2021a)
 * Required MATLAB toolbox for &chi;-sepnet     : Deep Learning Toolbox Converter for ONNX Model Format (https://www.mathworks.com/matlabcentral/fileexchange/67296-deep-learning-toolbox-converter-for-onnx-model-format)
-* Requirements for DICOM read and phase processing: see [https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0]
+* Requirements for DICOM read and phase processing: see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0
 
 
 # License
