@@ -6,7 +6,7 @@
   - **&chi;-separation using R2' (or** **R2** * **)**: magnetic susceptibility source separation algorithms based on convex optimization that share similar contrasts and optimization parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015) algorithms. The toolbox also provides the option to use pseudo R2 map if R2 measurement is not availabe (using R2' is reconmmanded for accurate estimation).
   - **&chi;-sepnet using R2' (or** **R2** * **)**: a U-Net-based neural network that reconstructs &chi;-separation using R2' and phase. In case R2 is not measured, another neural network is trained to estimate &chi;-separation maps from R2* and phase.
 
-* Last update: Mar,07,2023
+* Last update: Mar-07-2023
 
 # Download
 * https://www.dropbox.com/sh/8q7y005opitpxlz/AABtsSJDbEjJpvQmfQRwtjdpa?dl=0
