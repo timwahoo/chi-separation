@@ -20,10 +20,15 @@
 
 # License
 We provide software license for academic research purpose only and NOT for commercial or clinical use (please contact snu.list.software@gmail.com for license). For commercial use of our software, contact us (snu.list.software@gmail.com) for licensing via Seoul National University.Please email to “snu.list.software@gmail.com” with the following information:
+
 Name:
+
 Affiliation:
+
 Software:
+
 Purpose:
+
 
 # Notes
 The current &chi;-sepnet is only designed to process axial orientation image (&chi;-sepnet for arbitrary orientation will be updated before Apr, 2023).
