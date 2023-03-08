@@ -44,3 +44,4 @@ The current &chi;-sepnet is  designed to process axial orientation image only (&
 
 # Contact
 * snu.list.software@gmail.com
+* sin4109@gmail.com (Hyeong-Geol Shin, PhD)
