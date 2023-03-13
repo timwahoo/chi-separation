@@ -23,7 +23,7 @@
 # Requirements
 
 * Common
-  - MATLAB (tested in ver. R2019a-R2021a)
+  - MATLAB (tested in R2019a-R2021a)
 
 * Additional
   - For QSMnet and &chi;-sepnet, Deep Learning MATLAB Toolbox Converter for ONNX Model Format (https://www.mathworks.com/matlabcentral/fileexchange/67296-deep-learning-toolbox-converter-for-onnx-model-format)
