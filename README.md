@@ -4,7 +4,7 @@
 
 * The &chi;-separation toolbox includes the following features:
   - DICOM/NIFTI/MATLAB data compatibility
-  - **QSMnet**: Quantitative susceptibility mapping (QSM) reconstruction algorithm based on deep neural network (QSMnet+; Jung et al., Neuroimage, 2020)
+  - **QSMnet**: Quantitative susceptibility mapping (QSM) reconstruction algorithm based on deep neural network (QSMnet; Yoon et al., Neuroimage, 2018)
   - **&chi;-separation using R2' (or** **R2** * **)**: magnetic susceptibility source separation algorithms based on convex optimization that share similar contrasts and optimization parameters with either MEDI+0 (Liu et al., MRM, 2018) or iLSQR (Li et al., Neuroimage, 2015) algorithms. The toolbox also provides the option to use pseudo R2 map if R2 measurement is not availabe (using R2' is reconmmanded for accurate estimation).
   - **&chi;-sepnet using R2' (or** **R2** * **)**: a U-Net-based neural network that reconstructs COSMOS-quality &chi;-separation using R2' and phase. In case R2 is not measured, another neural network is trained to estimate &chi;-separation maps from R2* and phase.
 
@@ -17,7 +17,7 @@
 
 * H. Shin, J. Lee, Y. H. Yun, S. H. Yoo, J. Jang, S.-H. Oh, Y. Nam, S. Jung, S. Kim, F. Masaki, W. Kim, H. J. Choi, J. Lee. &chi;-separation: Magnetic susceptibility source separation toward iron and myelin mapping in the brain. Neuroimage, 2021 Oct; 240:118371.
 * M. Kim, H. Shin, C. Oh, H. Jeong, S. Ji, H. An, J. Kim, J. Jang, B. Bilgic, and J. Lee, "Chi-sepnet: Susceptibility source separation using deep neural network", 30th Annual Meeting of International Society of Magnetic Resonance in Medicine, 2022; 2464.
-* W. Jung, J. Yoon, S. Ji, J. Choi, J. Kim, Y. Nam, E. Kim, J. Lee, Exploring linearity of deep neural network trained QSM: QSMnet+. Neuroimage, 2020; 116619.
+* J. Yoon, E. Gong, I. Chatnuntawech, B. Bilgic, J. Lee, W. Jung, J. Ko, H. Jung, K. Setsompop, G. Zaharchuk, E.Y. Kim, J. Pauly, J. Lee. Quantitative susceptibility mapping using deep neural network: QSMnet. Neuroimage. 2018;179:199-206
 
 
 # Requirements
