@@ -17,7 +17,7 @@
 % Kim, H. J. Choi, J. Lee. χ-separation: Magnetic susceptibility source separation toward iron and 
 % myelin mapping in the brain. Neuroimage, 2021 Oct; 240:118371.
 
-% χ-separation tool is powered by MEDI toolbox, STI Suite, and sepia.
+% χ-separation tool is powered by MEDI toolbox, STI Suite.
 
 
 %% Exercise
@@ -103,7 +103,7 @@ QSM = QSM_iLSQR(local_field,mask_brain_new,'TE',delta_TE*1e3,'B0',B0_strength,'H
 mask_CSF = extract_CSF(r2star, mask_brain_new, voxel_size);
 
 % mask_reference = mask_brain_new; % reference region (or mask_CSF)
-% QSM = QSMnet(home_directory, local_field_hz, mask_brain_new, mask_reference, B0_direction, CF, voxel_size, matrix_size);
+% QSM = QSMnet_general(home_directory, local_field_hz, mask_brain_new, mask_reference, B0_direction, CF, voxel_size, matrix_size);  
 
 %% χ-separation
 % Parameters for using r2
@@ -153,7 +153,7 @@ option_data.N_std = N_std;
 %     map = r2star;
 % end
 % Dr = 137;
-% [x_pos, x_neg, x_tot] = chi_sepnet(home_directory, local_field_hz, QSM, map, mask_brain_new, Dr, B0_direction, CF, voxel_size, matrix_size, have_r2map);
+% [x_pos, x_neg, x_tot] = chi_sepnet_general(home_directory, local_field_hz, map, mask_brain_new, Dr, B0_direction, CF, voxel_size, matrix_size, have_r2map);
 
 
 
