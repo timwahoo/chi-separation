@@ -1,6 +1,6 @@
 #  chi-sep toolbox
 
-* The GUI-based MATLAB toolbox including algorithms for magnetic susceptibility source separation based on convex optimization (**&chi;-separation or chi-separation; H. Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction (**&chi;-sepnet; M. Kim at al., 30th Annual Meeting of ISMRM, 2022**). The toolbox also supports phase preprocessing (e.g. phase unwrapping and background removal) powered by MEDI and STI Suite toolboxs (see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0 for details). 
+* The GUI-based MATLAB toolbox including algorithms for magnetic susceptibility source separation based on convex optimization (**&chi;-separation or chi-separation; H. Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction (**&chi;-sepnet; M. Kim at al., 30th Annual Meeting of ISMRM, 2022**). The toolbox also supports phase preprocessing (e.g. phase unwrapping and background removal) powered by MEDI and STI Suite toolboxs (see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0 for details) and QSM reconsturction using deep neural network (**QSMnet; J. Yoon et al., Neuroimage, 2018**). 
 
 * The &chi;-separation toolbox includes the following features:
   - DICOM/NIFTI/MATLAB data compatibility
