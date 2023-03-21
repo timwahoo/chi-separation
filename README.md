@@ -10,8 +10,6 @@
 
 * Last update: Mar-14-2023 (Hyeong-Geol Shin, Jun-Hyeok Lee, Minjoon Kim)
 
-# Download
-* https://www.dropbox.com/sh/8q7y005opitpxlz/AABtsSJDbEjJpvQmfQRwtjdpa?dl=0
 
 # Reference
 
