@@ -1,3 +1,5 @@
+#  ⭐New toolbox will be available with in May, 2024!⭐
+
 #  chi-separation toolbox (*&chi;*-separation, x-separation)
 
 * The GUI-based MATLAB toolbox including algorithms for magnetic susceptibility source separation based on convex optimization (**_&chi;_-separation or chi-separation; H. Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction (**_&chi;_-sepnet; M. Kim at al., 30th Annual Meeting of ISMRM, 2022**). The toolbox also supports phase preprocessing (e.g. phase unwrapping and background removal) powered by MEDI and STI Suite toolboxs (see the manual for details) and QSM reconsturction using deep neural network (**QSMnet; J. Yoon et al., Neuroimage, 2018**). 
@@ -11,14 +13,14 @@
 * Last update: May-26-2023 (Hyeong-Geol Shin, Jun-Hyeok Lee, Minjoon Kim, Kyeongseon Min)
 
 
-# Reference
+## Reference
 
 * H. Shin, J. Lee, Y. H. Yun, S. H. Yoo, J. Jang, S.-H. Oh, Y. Nam, S. Jung, S. Kim, F. Masaki, W. Kim, H. J. Choi, J. Lee. *&chi;*-separation: Magnetic susceptibility source separation toward iron and myelin mapping in the brain. Neuroimage, 2021 Oct; 240:118371.
 * M. Kim, H. Shin, C. Oh, H. Jeong, S. Ji, H. An, J. Kim, J. Jang, B. Bilgic, and J. Lee, "Chi-sepnet: Susceptibility source separation using deep neural network", 30th Annual Meeting of International Society of Magnetic Resonance in Medicine, 2022; 2464.
 * J. Yoon, E. Gong, I. Chatnuntawech, B. Bilgic, J. Lee, W. Jung, J. Ko, H. Jung, K. Setsompop, G. Zaharchuk, E.Y. Kim, J. Pauly, J. Lee. Quantitative susceptibility mapping using deep neural network: QSMnet. Neuroimage. 2018;179:199-206
 
 
-# Requirements
+## Requirements
 
 * Common
   - MATLAB (tested in R2019a-R2021a)
@@ -28,7 +30,7 @@
   - For DICOM/NIFTI read and phase processing, see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0
 
 
-# License
+## License
 We provide software license for academic research purpose only and NOT for commercial or clinical use. To renew the license, please contact snu.list.software@gmail.com. For commercial use of our software, contact us (snu.list.software@gmail.com) with the following information:
 
 Name:
@@ -40,6 +42,6 @@ Software:
 Purpose:
 
 
-# Contacts
+## Contacts
 * snu.list.software@gmail.com
 * sin4109@gmail.com (Hyeong-Geol Shin, PhD)
