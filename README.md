@@ -1,4 +1,4 @@
-#  ⭐New toolbox will be available with in May, 2024!⭐
+#  ⭐New toolbox will be available within May, 2024!⭐
 
 #  chi-separation toolbox (*&chi;*-separation, x-separation)
 
