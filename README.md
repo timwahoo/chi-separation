@@ -2,7 +2,7 @@
 
 #  chi-separation toolbox (*&chi;*-separation, x-separation)
 
-* The GUI-based MATLAB toolbox including algorithms for magnetic susceptibility source separation based on convex optimization (**_&chi;_-separation or chi-separation; H. Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction (**_&chi;_-sepnet; M. Kim at al., 30th Annual Meeting of ISMRM, 2022**). The toolbox also supports phase preprocessing (e.g. phase unwrapping and background removal) powered by MEDI, STI Suite, SEGUE, and mritools toolboxs (see the Chisep_script.m file for details). 
+* The GUI-based MATLAB toolbox including algorithms for magnetic susceptibility source separation based on convex optimization (**_&chi;_-separation or chi-separation; H. Shin et al., Neuroimage, 2021**) and deep learning-based reconstruction. The toolbox also supports phase preprocessing (e.g. phase unwrapping and background removal) powered by MEDI, STI Suite, SEGUE, and mritools toolboxs (see the Chisep_script.m file for details). 
 
 * The *&chi;*-separation toolbox includes the following features:
   - DICOM/NIFTI data compatibility
