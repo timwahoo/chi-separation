@@ -30,9 +30,7 @@
 
 
 ## List of papers
-
-
-
+Please refer to [[link](https://github.com/SNU-LIST/chi-separation/blob/main/LIST_OF_PAPERS.md)]
 
 
 ## Contacts
