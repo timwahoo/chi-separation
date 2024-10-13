@@ -1,10 +1,10 @@
 #  chi-separation toolbox (*&chi;*-separation, x-separation)
 
-#  ⭐New version of the toolbox is now available for test! Don't hesitate to contact us for bugs and feedbacks: snu.list.software@gmail.com ⭐
-#  ⭐This toolbox can process 3T datasets (other field stengths not properly processed. 7T processing will be updated soon). ⭐
-#  ⭐If you have both GRE and SE data, you have options for conventional optimization (MEDI, iLSQR) and neural network (chi-sepnet-R2', better quality) ⭐
-#  ⭐If you only have GRE data, neural network (chi-sepnet-R2*) will deliver high quality chi-separation maps ⭐
-#  ⭐Neural networks can process resolution > 0.6 mm ⭐
+* ⭐New version of the toolbox is now available for test! Don't hesitate to contact us for bugs and feedbacks: snu.list.software@gmail.com 
+* ⭐This toolbox can process 3T datasets (other field stengths not properly processed. 7T processing will be updated soon). 
+* ⭐If you have both GRE and SE data, you have options for conventional optimization (MEDI, iLSQR) and neural network (chi-sepnet-R2', better quality) 
+* ⭐If you only have GRE data, neural network (chi-sepnet-R2*) will deliver high quality chi-separation maps 
+* ⭐Neural networks can process resolution > 0.6 mm 
 
 * A toolbox for magnetic susceptibility source separation (**_&chi;_-separation or chi-separation; H. Shin et al., Neuroimage, 2021**). 
 
