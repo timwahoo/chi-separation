@@ -1,13 +1,12 @@
 #  chi-separation toolbox (*&chi;*-separation, x-separation)
 
 * ⭐ New version of the toolbox is now available for test! Don't hesitate to contact us for bugs and feedbacks: snu.list.software@gmail.com 
-* ⭐ This toolbox is developed for in-vivo human 3T datasets. Other field stengths, high resolution ex-vivo or nonhuman datasets (< 0.6 mm) are not fully tested and may require additional processing. 7T processing will be updated soon. 
+* ⭐ This toolbox is developed for in-vivo human 3T datasets. Other field stengths, high resolution ex-vivo or nonhuman datasets (< 0.6 mm) are not fully tested and may require additional processing.  
+* ⭐ For 7T processing (> 0.6 mm), we have a new method coming up soon [[link](https://arxiv.org/abs/2410.12239)]. Please contact us if you want to use this method.
 * ⭐ E-mail us if you need data processing other than in-vivo human 3T datasets. We may be able to help you with scan protocol and processing. 
-* ⭐ If you have both GRE and SE data, you have options for conventional optimization (MEDI, iLSQR) and neural network (chi-sepnet-R2', better quality). 
-* ⭐ If you only have GRE data, neural network (chi-sepnet-R2*) will deliver high quality chi-separation maps.
+* ⭐ If you have both GRE and SE data, you have data processing options of conventional optimization (MEDI, iLSQR) and neural network (chi-sepnet-R2', better quality). 
+* ⭐ If you only have GRE data, neural network (chi-sepnet-R2*) will deliver high quality *&chi;*-separation maps.
 * ⭐ Neural networks can process resolution > 0.6 mm. This makes high resolution ex-vivo or rodent data processing difficult if you only have GRE data.
-
-* A toolbox for magnetic susceptibility source separation (**_&chi;_-separation or chi-separation; H. Shin et al., Neuroimage, 2021**). 
 
 * The *&chi;*-separation toolbox includes the following features:
   - DICOM/NIFTI data compatibility
@@ -20,14 +19,13 @@
 
 
 ## Requirements
-* Common
+* Common requirement
   - MATLAB (tested in R2019a-R2021a. Toolbox will fail any version before R2019a.)
-
-* Additional
+* Additional requirements
   - For QSMnet and *&chi;*-sepnet, Deep Learning MATLAB Toolbox Converter for ONNX Model Format (https://www.mathworks.com/matlabcentral/fileexchange/67296-deep-learning-toolbox-converter-for-onnx-model-format)
   - For DICOM/NIFTI read and phase processing, see https://www.dropbox.com/sh/3zafav50bfnruuu/AABVVYpdsznsRXKy8YKK4ybla?dl=0
 
-## Recommendation for acquisitoin 
+## Recommendation for acquisition 
 * Multiecho GRE data for in-vivo
   - TR = 33 ms; TE1 = 5 ms; Echo spacing = 6 ms; Number of echoes = 5; flip angle = 15° Matrix size (AP LR HF) = 256 x 176 x 144 Resolution = isotropic 1 mm  Parallel imaging factor = 2; elliptical k-space shutter  Acquisition time = 6 mins. 
   - Follow QSM consensus paper (https://doi.org/10.1002/mrm.30006)
@@ -36,10 +34,13 @@
 * Multiecho GRE data for high resolution ex-vivo
   - Highly recommend to acquire multi-orientation data (relative to B0).
 
+## Recommendation for data analysis 
+* *&chi;*-separation template and regions of interest are available here [[link](https://github.com/SNU-LIST/chi-separation-atlas)]
+* K Min et al. A human brain atlas of *&chi;*-separation for normative iron and myelin distributions. NMR Biomed, 2024 online [[link](https://doi.org/10.1002/nbm.5226)]
+
 ## Reference
 * H. Shin, J. Lee, Y. H. Yun, S. H. Yoo, J. Jang, S.-H. Oh, Y. Nam, S. Jung, S. Kim, F. Masaki, W. Kim, H. J. Choi, J. Lee. *&chi;*-separation: Magnetic susceptibility source separation toward iron and myelin mapping in the brain. Neuroimage, 2021 Oct; 240:118371.
-* Please refer to [[link](https://github.com/SNU-LIST/chi-separation/blob/main/LIST_OF_PAPERS.md)]
-
+* For more papers related to *&chi;*-separation, please refer to [[link](https://github.com/SNU-LIST/chi-separation/blob/main/LIST_OF_PAPERS.md)]
 
 ## Contacts
 * snu.list.software@gmail.com
