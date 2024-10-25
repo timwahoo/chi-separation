@@ -1,6 +1,6 @@
 # Papers for susceptibility source separation
 
-* **Original paper**
+* **Original paper of &chi;-separation**
   - &chi;-separation: Magnetic susceptibility source separation toward iron and myelin mapping in the brain (2021), HG Shin et al. [[Paper](https://www.sciencedirect.com/science/article/pii/S1053811921006479)]  
 
 &nbsp;
