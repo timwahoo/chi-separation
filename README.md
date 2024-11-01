@@ -1,6 +1,7 @@
 #  chi-separation toolbox (*&chi;*-separation, x-separation)
 
 * ⭐ New version of the toolbox is now available for test! Don't hesitate to contact us for bugs and feedbacks: snu.list.software@gmail.com 
+* ⭐ A new error that a saved nii file has revsered left-right images in some dicom input files has been reported and has not be fixed yet. Users are advised to double check this issue in their data.
 * ⭐ This toolbox is developed for in-vivo human 3T datasets. Other field stengths, high resolution ex-vivo or nonhuman datasets (< 0.6 mm) are not fully tested and may require additional processing.  
 * ⭐ For 7T processing (> 0.6 mm), we have a new method coming up soon [[link](https://arxiv.org/abs/2410.12239)]. Please contact us if you want to use this method.
 * ⭐ E-mail us if you need data processing other than in-vivo human 3T datasets. We may be able to help you with scan protocol and processing. 
